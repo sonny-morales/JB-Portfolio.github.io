@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                                            <!-- Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+                                                                            <!-- fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,1000;1,400&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+                                                                            <!-- Css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>JB - Photography Studio</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">                   <!-- Logo-->
+                <div class="imgBox" id="imgBox">
+                    <img src="img/logo original.jpg" alt="">
+                </div> 
+            </div>
+        </header>
+
+            <nav id="menu">
+                <a href="#1">Portfolio</a>
+                <a href="#2">Quienes Somos</a>
+                <a href="#3">Contactanos</a>
+                <span class="indicador" id="indicador"></span>
+            </nav>
+            
+            <div class="secciones">         <!-- Portfolio Grid-->
+                <div class="seccion" id="1">
+                    <div class="card">
+                        <form action="">     <!-- Portfolio Barra de busqueda-->
+                            <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+                        </form>
+                        <div class="categorias" id="categorias">    <!-- Portfolio Categorias-->
+                            <a href="#" class="activo">Todos</a>
+                            <a href="#">Naturaleza</a>
+                            <a href="#">Retrato</a>
+                            <a href="#">Ciudades</a>
+                            <a href="#">Boda</a>
+                            <a href="#">Animales</a>
+                            <a href="#">Productos</a>
+                        </div>
+            
+                        <section class="grid" id="grid">         <!-- Portfolio Grid-->
+                            <div class="item" data-categoria="ciudades" data-etiquetas="ciudad de NY"
+                                data-descripcion="1.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/ny 1.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="ciudades" data-etiquetas="monte fuji en primavera"
+                                data-descripcion="2.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/monte-fuji.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="retrato" data-etiquetas="retrato de una geisha"
+                                data-descripcion="3.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/retrato 1.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="retrato" data-etiquetas="retrato de una pareja"
+                                data-descripcion="4.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/retrato 2.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="retrato" data-etiquetas="retrato de una mujer mirando el paisaje"
+                                data-descripcion="5.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/retrato 4.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="naturaleza" data-etiquetas="luz en los arboles"
+                                data-descripcion="6.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/bosque 4.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="naturaleza" data-etiquetas="cueva en el bosque"
+                                data-descripcion="7.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/Bosque 6.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="animales" data-etiquetas="gato naranja"
+                                data-descripcion="8.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/Gato.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="animales" data-etiquetas="perro primer plano"
+                                data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/Perro.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="boda" data-etiquetas="novios frente a los botes"
+                                data-descripcion="10.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/pareja 1.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="boda" data-etiquetas="la novia con sus damas de honor"
+                                data-descripcion="11.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/damas.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="productos" data-etiquetas="publicidad de moto en bn"
+                                data-descripcion="12.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/Moto.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="productos" data-etiquetas="publicidad de helado naranja"
+                                data-descripcion="13.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/Helado.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="productos" data-etiquetas="spot publicidad"
+                                data-descripcion="14.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/Spot publicitario.jpg" alt="">
+                                </div>
+                            </div>
+            
+                            <div class="item" data-categoria="productos" data-etiquetas="publicidad tabla de carnes"
+                                data-descripcion="15.- Lorem ipsum dolor sit amet consectetur.">
+                                <div class="item-contenido">
+                                    <img src="img/Tabla de carne.jpg" alt="">
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="seccion" id="2">
+                    <div class="card">
+                        <h1>Quienes somos?</h1>
+                        <img src="img/About.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ante mattis, lacinia arcu nec, consequat massa. Aliquam faucibus quam eget justo posuere vehicula. Donec ac fermentum dolor, rhoncus congue sapien. Maecenas lacinia tellus nec turpis tempor pellentesque. Praesent in erat a nisl viverra dapibus. Pellentesque feugiat dolor quis sapien rutrum, sed placerat est volutpat. Curabitur sed convallis lacus, vel molestie ante. </p>
+                    </div>
+                </div>
+        
+                <div class="seccion" id="3">
+                    <div class="card">
+                        <h1>Contactanos</h1>
+                        <img src="img/3.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet ante mattis, lacinia arcu nec, consequat massa. Aliquam faucibus quam eget justo posuere vehicula. Donec ac fermentum dolor, rhoncus congue sapien. Maecenas lacinia tellus nec turpis tempor pellentesque. Praesent in erat a nisl viverra dapibus. Pellentesque feugiat dolor quis sapien rutrum, sed placerat est volutpat. Curabitur sed convallis lacus, vel molestie ante. </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <section class="overlay" id="overlay">
+                    <div class="contenedor-img">
+                        <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+                        <img src="" alt="">
+                    </div>
+                    <p class="descripcion"></p>
+                </section>
+            
+                <footer class="contenedor">
+                    <div class="redes-sociales">
+                        <div class="contenedor-icono">
+                            <a href="#" target="_blank" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="contenedor-icono">
+                            <a href="#" target="_blank" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="creado-por">
+                        <p>Web diseñado con &#128147; by Sonia Morales</p>
+                    </div>
+                </footer>
+            </div>
+            
+            <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+            <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+
+            <script src="scripts/main.js"></script>
+
+            </body>
+            
+            </html>
